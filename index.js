@@ -115,7 +115,7 @@ const ScrollableTabView = createReactClass({
     };
   },
 
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     this.scrollView = React.createRef();
   },
 
